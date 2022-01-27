@@ -1,0 +1,33 @@
+#welcome-section{
+    background-color: brown;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    
+
+}
+#h{
+    font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    color:rgb(3, 3, 5);
+}
+#projects{
+   
+    background-color: gray;
+    padding-top:25px;
+    padding-right: 10px;
+    padding-left:10px;
+    padding-bottom:300px;
+    
+}
+#h2{
+    font-size:20px;
+    color: blue;
+}
+.project-tiles{
+    display: grid;
+    grid-column-gasp: 20px;
+    grid-template-columns:repeat(auto-fit, minmax(300,1fr)150px);
+
+}
